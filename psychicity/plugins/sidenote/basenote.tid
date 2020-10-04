@@ -1,0 +1,6 @@
+title: $:/othy/sidenote/BaseNote
+tags: $:/tags/othySideNote
+caption: Notepad
+
+<$edit tiddler="$:/othy/sidenote/saveBaseNote" class="w-100" />
+

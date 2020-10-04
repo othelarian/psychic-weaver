@@ -1,0 +1,9 @@
+{
+  "title": "$:/plugins/othy/sidenote",
+  "name": "SideNote",
+  "description": "Add a way to take note in the sidebar",
+  "author": "othelarian",
+  "version": "1.0.0",
+  "core-version": ">=5.1.21",
+  "plugin-type": "plugin"
+}

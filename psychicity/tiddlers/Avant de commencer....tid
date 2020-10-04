@@ -1,0 +1,46 @@
+created: 20201004213254234
+creator: Othy
+modified: 20201004225957834
+modifier: Othy
+tags: technique
+title: Avant de commencer...
+type: text/vnd.tiddlywiki
+
+! Suivi des détails techniques liés à ce TW :
+
+* ~~Prise de note rapide~~
+** ~~Squelette du plugin~~
+** ~~Ajout d'un élément dans la sidebar~~
+** ~~Ajout d'onglet dans le système de prise de note~~
+** ~~Ajout d'un élément en mode écriture permanente~~
+* Un système de lancer de dés
+** ~~Squelette du plugin~~
+** Bouton d'ouverture d'une popup
+** Génération d'un lancer
+** Historique des lancers
+** ???
+* Un système de gestion d'entités
+** Liste des entités
+** Rangement par catégorie
+** Application de modèles
+** ???
+* Un système de fiche d'entité
+** Squelette du template
+** Squelette du format de stockage
+** Formulaire de base
+*** Nom
+*** Zone pour les aspects
+*** Zone pour les valeurs numériques
+*** Zone pour les prouesses (optionnelle)
+*** Zone pour les détails supplémentaires
+*** Zone pour l'évolution (optionnelle)
+** Input valeur numérique
+** Gestion des aspects
+** Gestion des prouesses
+** Gestion de l'évolution
+** ???
+* Un système d'écriture de scène
+** Squelette du template
+** Squelette du format de stockage
+** Passage d'un mode à l'autre
+** ???

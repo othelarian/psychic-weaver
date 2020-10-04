@@ -1,0 +1,9 @@
+{
+  "title": "$:/plugins/othy/diceroll",
+  "name": "DiceRoll",
+  "description": "Roll the dice!",
+  "author": "othelarian",
+  "version": "1.0.0",
+  "core-version": ">=5.1.21",
+  "plugin-type": "plugin"
+}
