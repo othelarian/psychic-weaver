@@ -1,0 +1,41 @@
+created: 20201011155258129
+list: dazdazd blabi
+modified: 20201011212123285
+newelt: azd &é" & "é&a
+tags: technique
+title: test_dnd
+type: text/vnd.tiddlywiki
+
+<table class="launcher-table-noborder">
+<$list filter="[list[!!list]]" variable="item">
+<tr>
+<td><<item>></td><td>
+<$button class="tc-btn-invisible">
+<$action-listops
+$field="list"
+$subfilter="-[<item>]"
+/>
+{{$:/core/images/close-button}}
+</$button>
+</td>
+</tr>
+</$list>
+</table>
+
+<$set name="titi" value="blabla">
+<$button>
+<$action-listops
+$field="list"
+$subfilter="+[remove<titi>]"
+/>
+remove
+</$button>
+</$set>
+
+<$edit tiddler="test_dnd2"  field="newelt" class="launcher-width-70"/>
+<$button>
+<$action-listops $field="list"
+$subfilter={{$:/othy/launcher/show_launcher!!newElement}}
+/>
+add to list
+</$button>

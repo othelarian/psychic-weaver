@@ -1,0 +1,14 @@
+title: $:/othy/launcher/launcher_css
+tags: $:/tags/Stylesheet
+
+.launcher-table-noborder {
+  border: none;
+}
+
+.launcher-table-noborder td {
+  border: none;
+}
+.launcher-width-70 {
+  width: 70%;
+}
+

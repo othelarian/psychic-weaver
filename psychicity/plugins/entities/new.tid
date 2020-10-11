@@ -1,0 +1,5 @@
+title: $:/othy/entities/New
+
+<$button class="tc-btn-invisible">
+{{$:/core/images/new-image-button}}
+</$button>

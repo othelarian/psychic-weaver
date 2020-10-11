@@ -1,0 +1,36 @@
+title: $:/othy/launcher/show_launcher_actions
+
+List of tiddlers who are currently in the launcher:
+
+<table class="launcher-table-noborder">
+<$list filter="[list[$:/othy/launcher/launcher_save!!list]]"
+emptyMessage="No actions in the launcher"
+variable="item">
+<tr>
+<td><$transclude tiddler=<<item>> mode="inline"/> {{<<item>>!!title}}</td>
+<td>
+<$button class="tc-btn-invisible">
+<$action-listops
+$tiddler="$:/othy/launcher/launcher_save"
+$field="list"
+$subfilter="-[<item>]"/>
+{{$:/core/images/close-button}}
+</$button>
+</td>
+</tr>
+</$list>
+</table>
+
+Want to add a tiddler to the launcher?
+
+<$edit tiddler="$:/othy/launcher/launcher_save"
+field="newElement" class="launcher-width-70"/>
+
+<$button>
+<$action-listops
+$tiddler="$:/othy/launcher/launcher_save"
+$field="list"
+$subfilter={{$:/othy/launcher/launcher_save!!newElement}}/>
+Add to the launcher
+</$button>
+

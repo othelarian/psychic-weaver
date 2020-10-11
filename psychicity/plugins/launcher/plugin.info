@@ -1,0 +1,9 @@
+{
+  "title": "$:/plugins/othy/launcher",
+  "name": "Launcher",
+  "description": "A way to easily add buttons in sidebar",
+  "author": "othelarian",
+  "version": "1.0.0",
+  "core-version": ">=5.1.21",
+  "plugin-type": "plugin"
+}

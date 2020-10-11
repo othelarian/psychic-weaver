@@ -1,0 +1,36 @@
+created: 20201009214538444
+modified: 20201011142809079
+tags: technique
+title: entite_type
+type: text/vnd.tiddlywiki
+
+basic transclusion : {{template_entite}}
+
+dict transclusion : {{entite_dict##desc}}
+
+
+
+
+===
+
+Nom de l'entité
+
+===
+
+Aspects de l'entité
+
+===
+
+Valeurs numériques
+
+===
+
+Description de l'entité
+
+===
+
+Prouesses de l'entité
+
+===
+
+Historique de l'entité
