@@ -1,15 +1,16 @@
 created: 20201009214538444
-modified: 20201011142809079
+entity_data: entite_dict_a
+modified: 20201012154903561
 tags: technique
-title: entite_type
+title: entite test
 type: text/vnd.tiddlywiki
 
-basic transclusion : {{template_entite}}
-
-dict transclusion : {{entite_dict##desc}}
+basic transclusion : {{!!entity_data}}
 
 
+{{{ [{!!entity_data}] }}}
 
+{{{ [{!!entity_data}] ||entity_template}}}
 
 ===
 

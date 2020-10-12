@@ -1,0 +1,11 @@
+created: 20201011122745509
+editmode: 2
+modified: 20201012154329278
+tags: technique
+title: entity_template
+type: text/vnd.tiddlywiki
+
+blabla template
+
+title: {{!!title}}
+edit: {{!!editmode}}
