@@ -1,0 +1,10 @@
+title: $:/othy/entities/NewForm
+subtitle: New Entity:
+footer:
+
+New Entity
+
+TODO
+
+<$button message="tm-close-tiddler" param="$:/othy/entities/NewForm">Close</$button>
+

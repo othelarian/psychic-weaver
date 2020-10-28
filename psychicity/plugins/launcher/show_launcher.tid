@@ -6,7 +6,7 @@ list-after: $:/core/ui/SideBarSegments/page-controls
 <$list filter="[list[$:/othy/launcher/launcher_save!!list]]" variable="item">
 <$transclude tiddler=<<item>> mode="inline"/>
 </$list>
-<$button to="$:/othy/launcher/show_launcher_actions" class="tc-btn-invisible">
+<$button to="$:/othy/launcher/show_launcher_actions" class="tc-btn-invisible" tooltip="Launcher Form">
 {{$:/core/images/theme-button}}
 </$button>
 </div>

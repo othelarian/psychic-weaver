@@ -1,5 +1,5 @@
-title: $:/othy/entities/Access
+title: $:/othy/entities/AccessButton
 
-<$button class="tc-btn-invisible" to="Entities Hall">
+<$button class="tc-btn-invisible" to="Entities Hall" tooltip="Entity Hall">
 {{$:/core/images/excise}}
 </$button>

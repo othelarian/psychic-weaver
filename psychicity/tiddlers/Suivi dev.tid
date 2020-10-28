@@ -1,9 +1,9 @@
 created: 20201004213254234
 creator: Othy
-modified: 20201004225957834
+modified: 20201027230932169
 modifier: Othy
 tags: technique
-title: Avant de commencer...
+title: Suivi dév
 type: text/vnd.tiddlywiki
 
 ! Suivi des détails techniques liés à ce TW :
@@ -13,6 +13,14 @@ type: text/vnd.tiddlywiki
 ** ~~Ajout d'un élément dans la sidebar~~
 ** ~~Ajout d'onglet dans le système de prise de note~~
 ** ~~Ajout d'un élément en mode écriture permanente~~
+* ~~Une barre d'action rapide~~
+** ~~Ajout d'une barre sous les outils~~
+** ~~Affichage de la liste des actions~~
+** ~~Ajout d'un bouton pour enlever un élément de la liste~~
+** ~~Mise en place d'un formulaire d'ajout rapide des actions~~
+** ~~Optionnel : Ajout d'un texte au survol pour l'action du formulaire~~
+** ~~Optionnel : Remise à zéro du champs d'ajout~~
+** Optionnel : affichage et sélection de la liste des tiddlers susceptible d'être ajoutés
 * Un système de lancer de dés
 ** ~~Squelette du plugin~~
 ** Bouton d'ouverture d'une popup
@@ -20,7 +28,10 @@ type: text/vnd.tiddlywiki
 ** Historique des lancers
 ** ???
 * Un système de gestion d'entités
-** Liste des entités
+** ''Création d'un tag spécifique pour les entités''
+** ''Liste des entités''
+** ''Utilisation des modals pour afficher un formulaire de création d'entités''
+** Création d'une entité via formulaire
 ** Rangement par catégorie
 ** Application de modèles
 ** ???

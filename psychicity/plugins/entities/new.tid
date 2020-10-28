@@ -1,5 +1,6 @@
-title: $:/othy/entities/New
+title: $:/othy/entities/NewButton
 
-<$button class="tc-btn-invisible">
+<$button class="tc-btn-invisible" tooltip="New Entity"
+message="tm-modal" param="$:/othy/entities/NewForm">
 {{$:/core/images/new-image-button}}
 </$button>

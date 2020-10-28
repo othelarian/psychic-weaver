@@ -31,6 +31,8 @@ field="newElement" class="launcher-width-70"/>
 $tiddler="$:/othy/launcher/launcher_save"
 $field="list"
 $subfilter={{$:/othy/launcher/launcher_save!!newElement}}/>
+<$action-setfield $tiddler="$:/othy/launcher/launcher_save"
+$field="newElement" $value=""/>
 Add to the launcher
 </$button>
 
